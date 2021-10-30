@@ -11,7 +11,7 @@ struct stack{
 
 }st;
 
-//Inserting Element
+//Inserting Element to stack
 void push(int element)
 {
     if((st.top)==size)
@@ -104,6 +104,9 @@ int main()
         default:
             printf("\nEnter a correct choice (1,2,3,4,5)");
         }
-    }while(choice=5);
+
+    }
+while(choice=5);
     return 0;
+
 }
